@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-h2, p, ul {
+h2, p, ul, a {
     font-family: "Oswald", serif;
     font-weight: 200;
     color: white;
@@ -27,6 +27,7 @@ header {
 
 .title {
     background-color: #395B64;
+    background-image: linear-gradient(#395B64, #262e2e);
     width: 100%;
     height: 100px;
     align-items: center;
@@ -36,9 +37,9 @@ header {
 }
 
 .titlewords h1 {
-justify-content: bottom;
-display: flex;
-align-items: center;
+    justify-content: bottom;
+    display: flex;
+    align-items: center;
 }
 
 .navselect {
@@ -59,6 +60,7 @@ align-items: center;
 
 .footer {
     background-color: #395B64;
+    background-image: linear-gradient(#395B64, #2C3333);
     width: 100%;
     height: 80px;
     display: flex;
@@ -66,29 +68,32 @@ align-items: center;
 }
 
 section .center{
-background-color: #2C3333;
-width: 90%;
-height: 1000px;
-float: left;
+    background-color: #2C3333;
+    width: 90%;
+    height: 1000px;
+    float: left;
 }
 
 section .center div {
-justify-content: center;
-display: flex;
-align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 section .center div h2 {
     background-color: #262e2e;
+    background-image: linear-gradient(#262e2e 80%, #2C3333);
     height: 100px;
     width: 100%;
     }
 
 .closer {
-background-color: #A5C9CA;
-width: 5%;
-height: 1000px;
-float: left;
+    background-color: #A5C9CA;
+    background-image: linear-gradient(#2C3333, #A5C9CA, #2C3333);
+    width: 5%;
+    height: 1000px;
+    float: left;
 }
 
 .mainlogo {
@@ -112,4 +117,13 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: "Oswald";
+  }
+
+  label {
+    font-family: "Oswald";
+  }
+
+  div ul {
+    list-style: none;
   }
