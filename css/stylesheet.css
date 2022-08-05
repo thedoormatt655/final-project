@@ -77,7 +77,7 @@ header {
 section .center{
     background-color: #2C3333;
     width: 90%;
-    height: 1250px;
+    height: 2500px;
     float: left;
 }
 
@@ -141,7 +141,7 @@ section .center2 div h2 {
     background-color: #A5C9CA;
     background-image: linear-gradient(#2C3333, #A5C9CA, #2C3333);
     width: 5%;
-    height: 1250px;
+    height: 2500px;
     float: left;
 }
 
@@ -201,4 +201,9 @@ input[type=text], select, textarea {
   .footerimg {
     height: 60px;
     width: 60px;
+  }
+
+  .dexbake {
+    height: 600px;
+    width: 800px;
   }
