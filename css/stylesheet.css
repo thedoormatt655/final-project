@@ -77,11 +77,39 @@ header {
 section .center{
     background-color: #2C3333;
     width: 90%;
-    height: 2000px;
+    height: 1250px;
+    float: left;
+}
+
+section .center2{
+    background-color: #2C3333;
+    width: 90%;
+    height: 750px;
+    float: left;
+}
+
+section .center3{
+    background-color: #2C3333;
+    width: 90%;
+    height: 1500px;
     float: left;
 }
 
 section .center div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+section .center2 div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+section .center3 div {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -95,11 +123,41 @@ section .center div h2 {
     width: 100%;
     }
 
+section .center2 div h2 {
+    background-color: #262e2e;
+    background-image: linear-gradient(#262e2e 80%, #2C3333);
+    height: 50px;
+    width: 100%;
+    }
+
+    section .center3 div h2 {
+    background-color: #262e2e;
+    background-image: linear-gradient(#262e2e 80%, #2C3333);
+    height: 50px;
+    width: 100%;
+    }
+
 .closer {
     background-color: #A5C9CA;
     background-image: linear-gradient(#2C3333, #A5C9CA, #2C3333);
     width: 5%;
-    height: 2000px;
+    height: 1250px;
+    float: left;
+}
+
+.closer2 {
+    background-color: #A5C9CA;
+    background-image: linear-gradient(#2C3333, #A5C9CA, #2C3333);
+    width: 5%;
+    height: 750px;
+    float: left;
+}
+
+.closer3 {
+    background-color: #A5C9CA;
+    background-image: linear-gradient(#2C3333, #A5C9CA, #2C3333);
+    width: 5%;
+    height: 1500px;
     float: left;
 }
 
